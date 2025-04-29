@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.cnmaya3" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/neon</item>
+        <item name="colorPrimaryContainer">@color/neon</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.cnmaya3.NoActionBar" parent="Theme.cnmaya3">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
